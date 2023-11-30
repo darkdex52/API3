@@ -106,21 +106,21 @@ class MSTokens():
 
 if __name__ == "__main__":
     # For production
-#    mst = MSTokens(
-#        mode="pro",
-#        client_id=sys.argv[1],
-#        client_secret=sys.argv[2],
-#        refresh_token=sys.argv[3],
-#        github_token=sys.argv[4],
-#        github_repo=sys.argv[5]
-#    )
-#    print(mst.get_access_token())
+    mst = MSTokens(
+        mode="pro",
+        client_id=sys.argv[1],
+        client_secret=sys.argv[2],
+        refresh_token=sys.argv[3],
+        github_token=sys.argv[4],
+        github_repo=sys.argv[5]
+    )
+    print(mst.get_access_token())
 
     # For testing on local machine
-     mst = MSTokens(
-         mode="dev",
-         client_id="f68309dc-3529-4edb-a35c-0c92530e6243", # Manually enter
-         client_secret="SKB8Q~w9y3iObG.v_Ps1HlKcwedi_7_UNLSVRdBx", # Manually enter
-         tokens_file_name="tokens.txt" # The refresh token is in this file
-     )
-     print(mst.get_access_token())
+#     mst = MSTokens(
+#         mode="dev",
+#         client_id="f68309dc-3529-4edb-a35c-0c92530e6243", # Manually enter
+#         client_secret="SKB8Q~w9y3iObG.v_Ps1HlKcwedi_7_UNLSVRdBx", # Manually enter
+#         tokens_file_name="tokens.txt" # The refresh token is in this file
+#     )
+#     print(mst.get_access_token())
