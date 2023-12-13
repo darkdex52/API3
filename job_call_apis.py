@@ -26,6 +26,8 @@ class CallApis():
             "https://graph.microsoft.com/v1.0/sites/root/lists",
             "https://graph.microsoft.com/v1.0/sites/root",
             "https://graph.microsoft.com/v1.0/sites/root/drives"
+            "https://graph.microsoft.com/v1.0/teams/8929b62e-8ef5-48a8-912a-de4dea3f83e1/installedApps?$expand=teamsAppDefinition"
+            "https://graph.microsoft.com/v1.0/applications/7ee1bea9-e99d-4fa6-a2d7-2e09ae240235"
         ]
 
     # Main run
